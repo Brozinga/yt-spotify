@@ -1,0 +1,30 @@
+.titlebar {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-bottom: 20px;
+}
+.titlebar > section {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+
+.titlebar > section > button {
+    margin: 0px 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    transition: background-color .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebar > section > button:hover {
+    background-color: #363636;
+}
+

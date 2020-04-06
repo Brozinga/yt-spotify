@@ -1,0 +1,15 @@
+.logo-left > section {
+    margin-left: 25px;
+}
+
+.logo-left > section > img {
+    max-width: 150px;
+    height: auto;
+}
+
+.header-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
+button, select, input, textarea {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+button:focus, select:focus, input:focus, textarea:focus {
+  outline: none;
+}
+
+body {
+  background-color: #282828;
+}
+
+webview {
+  display:inline-flex; 
+  width:640px; 
+  height:480px
+}

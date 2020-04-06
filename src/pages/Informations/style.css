@@ -1,0 +1,71 @@
+.informations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  min-height: calc(100vh - 210px);
+  width: 100%;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.informations .title {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: -40px;
+}
+
+.informations .title > h1 {
+    color: #FFF;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.informations .title > h4 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.informations .title > h4 > span {
+    color: #9b9b9b;
+}
+
+.informations .title > p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 11pt;
+}
+
+.informations .title > small {
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 10pt;
+}
+
+.noselected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.noselected > h1 {
+    font-size: 35pt;
+    font-weight: 100;
+    max-width: 400px;
+    text-align: center;
+    margin-left: 20px;
+}
